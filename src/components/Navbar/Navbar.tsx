@@ -18,19 +18,29 @@ export const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="/">Acasa</NavLink>
+          <NavLink to="/" exact>
+            Acasa
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about">Noi doi</NavLink>
+          <NavLink to="/about" exact>
+            Noi doi
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/event">Eveniment</NavLink>
+          <NavLink to="/event" exact>
+            Eveniment
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/location">Unde si cand ?</NavLink>
+          <NavLink to="/location" exact>
+            Unde si cand ?
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/confirmation">Confirmare</NavLink>
+          <NavLink to="/confirmation" exact>
+            Confirmare
+          </NavLink>
         </li>
       </ul>
     </nav>

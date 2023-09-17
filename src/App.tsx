@@ -19,6 +19,7 @@ export const App = () => {
           <Route exact path="/event" component={Event} />
           <Route exact path="/location" component={Location} />
           <Route exact path="/confirmation" component={Confirmation} />
+          <Route path="*" component={Home} />
         </Switch>
       </Routes>
     </div>
