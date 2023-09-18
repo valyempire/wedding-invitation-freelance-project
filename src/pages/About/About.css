@@ -1,0 +1,39 @@
+/* About.css sau About.scss */
+
+.about-container {
+  text-align: center;
+}
+
+.about-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.about-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote {
+  margin: 18px 10px;
+  padding: 28px;
+  /* border: 1px solid #924141; */
+  border-radius: 25px;
+  background-color: #ff69b4;
+  color: white;
+}
+
+.quote p {
+  margin: 0;
+}
+
+.quote p:last-child {
+  margin-top: 10px;
+}
