@@ -3,8 +3,12 @@ import { useState } from "react";
 import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 
-export const Navbar = () => {
+export const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <nav>
@@ -18,27 +22,27 @@ export const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="/" exact>
+          <NavLink to="/" exact onClick={closeMenu}>
             Acasa
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" exact>
+          <NavLink to="/about" exact onClick={closeMenu}>
             Noi doi
           </NavLink>
         </li>
         <li>
-          <NavLink to="/event" exact>
+          <NavLink to="/event" exact onClick={closeMenu}>
             Eveniment
           </NavLink>
         </li>
         <li>
-          <NavLink to="/location" exact>
+          <NavLink to="/location" exact onClick={closeMenu}>
             Unde si cand ?
           </NavLink>
         </li>
         <li>
-          <NavLink to="/confirmation" exact>
+          <NavLink to="/confirmation" exact onClick={closeMenu}>
             Confirmare
           </NavLink>
         </li>

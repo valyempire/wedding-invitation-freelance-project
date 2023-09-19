@@ -1,7 +1,7 @@
 import "./About.css";
 import img from "../../assets/wedding.webp";
 
-export const About = () => {
+export const About: React.FC = () => {
   return (
     <div className="about-container">
       <img src={img} alt="Despre noi" />
