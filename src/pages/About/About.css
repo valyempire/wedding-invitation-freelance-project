@@ -1,6 +1,11 @@
-/* About.css sau About.scss */
-
 .about-container {
+  min-height: 100vh;
+  text-align: center;
+  background-image: url("../../assets/pngtree-pink-wedding-gradient.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
   text-align: center;
 }
 

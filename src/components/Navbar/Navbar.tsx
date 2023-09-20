@@ -13,7 +13,7 @@ export const Navbar: React.FC = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        Website
+        Invitatie la nunta
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
@@ -36,11 +36,7 @@ export const Navbar: React.FC = () => {
             Eveniment
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/location" exact onClick={closeMenu}>
-            Unde si cand ?
-          </NavLink>
-        </li>
+
         <li>
           <NavLink to="/confirmation" exact onClick={closeMenu}>
             Confirmare

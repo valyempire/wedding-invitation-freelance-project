@@ -1,0 +1,42 @@
+.containerConfirmation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.confirmation-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+}
+
+.confirmation-form input,
+.confirmation-form select,
+.confirmation-form button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.confirmation-form label {
+  font-weight: bold;
+}
+
+.confirmation-form button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.confirmation-form button:hover {
+  background-color: #0056b3;
+}
