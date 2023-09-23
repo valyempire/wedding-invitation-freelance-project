@@ -1,0 +1,11 @@
+footer {
+  background-color: #ff69b4; /* Culoarea de fundal a footer-ului */
+  color: #fff; /* Culoarea textului */
+  text-align: center;
+  padding: 20px;
+}
+
+.text p {
+  font-size: 16px;
+  margin: 5px 0;
+}
